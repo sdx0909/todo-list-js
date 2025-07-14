@@ -6,7 +6,7 @@ const BASE_API_URL = "http://localhost:3000/tasks";
 // getting the tableElement from DOM
 const tableElement = document.querySelector("#tasks-table");
 
-// function creating
+// for listing the tasks
 function getTasks(filter) {
   let parameter = "";
 
